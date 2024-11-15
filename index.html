@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    .hero {
+      background-color: #007bff; /* Blue background */
+      color: white;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      <img src="hero.jpg" class="card-img-top" alt="Project 3">
+      background-size: cover; /* Cover the entire section */
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 123, 255, 0.7); /* Semi-transparent blue overlay */
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+    }
+
+    .section-title {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .contact-form input, .contact-form textarea {
+      margin-bottom: 1rem;
+    }
+
+    .footer {
+      background-color: #f8f9fa;
+      padding: 1rem 0;
+      text-align: center;
+      color: #6c757d;
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="overlay"></div> <!-- Blue overlay on top of the image -->
+    <div class="container text-center hero-content">
+      <h1>Welcome to My Portfolio</h1>
+      <p class="lead">I am a Web Developer</p>
+      <a href="#about" class="btn btn-light btn-lg">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="text-center">Hello! I'm a passionate web developer who loves creating websites and applications with modern technologies.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="project1.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project 01</h5>
+              <p class="card-text">The objective of the assignment is to create a responsive website for your phone, iPad, and desktop. Use the bootstrap grid to make sure the flow of the elements is smooth across the different screens. Make sure proper horizontal and vertical spacing is maintained while the website moves across different screens. The assets that are used in the website such as images, tables forms or other elements should not break between screens. Also, make sure you use proper syntax and code structure across the code with no errors in the syntax while using them.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="project2.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Project 02</h5>
+              <p class="card-text">The objective of the assignment is to create a responsive website for your phone, iPad, and desktop. Use the bootstrap grid to make sure the flow of the elements is smooth across the different screens. Make sure proper horizontal and vertical spacing is maintained while the website moves across different screens. The assets that are used in the website such as images, tables forms or other elements should not break between screens. Also, make sure you use proper syntax and code structure across the code with no errors in the syntax while using them.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="project3.jpg" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Project 03</h5>
+              <p class="card-text">The objective of the assignment is to create a responsive website for your phone, iPad, and desktop. Use the bootstrap grid to make sure the flow of the elements is smooth across the different screens. Make sure proper horizontal and vertical spacing is maintained while the website moves across different screens. The assets that are used in the website such as images, tables forms or other elements should not break between screens. Also, make sure you use proper syntax and code structure across the code with no errors in the syntax while using them.</p>
+            </div>
+          </div>
+        </div>
+           <!-- Project 4 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="project1.jpg" class="card-img-top" alt="Project 4">
+              <div class="card-body">
+                <h5 class="card-title">Project 04</h5>
+                <p class="card-text">The objective of the assignment is to create a responsive website for your phone, iPad, and desktop. Use the bootstrap grid to make sure the flow of the elements is smooth across the different screens. Make sure proper horizontal and vertical spacing is maintained while the website moves across different screens. The assets that are used in the website such as images, tables forms or other elements should not break between screens. Also, make sure you use proper syntax and code structure across the code with no errors in the syntax while using them.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Project 5 -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="project2.jpg" class="card-img-top" alt="Project 5">
+              <div class="card-body">
+                <h5 class="card-title">Project 05</h5>
+                <p class="card-text">The objective of the assignment is to create a responsive website for your phone, iPad, and desktop. Use the bootstrap grid to make sure the flow of the elements is smooth across the different screens. Make sure proper horizontal and vertical spacing is maintained while the website moves across different screens. The assets that are used in the website such as images, tables forms or other elements should not break between screens. Also, make sure you use proper syntax and code structure across the code with no errors in the syntax while using them.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Project 06 -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="project3.jpg" class="card-img-top" alt="Project 6">
+              <div class="card-body">
+                <h5 class="card-title">Project 06</h5>
+                <p class="card-text">The objective of the assignment is to create a responsive website for your phone, iPad, and desktop. Use the bootstrap grid to make sure the flow of the elements is smooth across the different screens. Make sure proper horizontal and vertical spacing is maintained while the website moves across different screens. The assets that are used in the website such as images, tables forms or other elements should not break between screens. Also, make sure you use proper syntax and code structure across the code with no errors in the syntax while using them.</p>
+              </div>
+            </div>
+      </div>
+        <!-- Project 08 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="project1.jpg" class="card-img-top" alt="Project 7">
+              <div class="card-body">
+                <h5 class="card-title">Project 07</h5>
+                <p class="card-text">The objective of the assignment is to create a responsive website for your phone, iPad, and desktop. Use the bootstrap grid to make sure the flow of the elements is smooth across the different screens. Make sure proper horizontal and vertical spacing is maintained while the website moves across different screens. The assets that are used in the website such as images, tables forms or other elements should not break between screens. Also, make sure you use proper syntax and code structure across the code with no errors in the syntax while using them.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Project 08 -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="project2.jpg" class="card-img-top" alt="Project 8">
+              <div class="card-body">
+                <h5 class="card-title">Project 08</h5>
+                <p class="card-text">The objective of the assignment is to create a responsive website for your phone, iPad, and desktop. Use the bootstrap grid to make sure the flow of the elements is smooth across the different screens. Make sure proper horizontal and vertical spacing is maintained while the website moves across different screens. The assets that are used in the website such as images, tables forms or other elements should not break between screens. Also, make sure you use proper syntax and code structure across the code with no errors in the syntax while using them.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Project 09 -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img src="project3.jpg" class="card-img-top" alt="Project 9">
+              <div class="card-body">
+                <h5 class="card-title">Project 09</h5>
+                <p class="card-text">The objective of the assignment is to create a responsive website for your phone, iPad, and desktop. Use the bootstrap grid to make sure the flow of the elements is smooth across the different screens. Make sure proper horizontal and vertical spacing is maintained while the website moves across different screens. The assets that are used in the website such as images, tables forms or other elements should not break between screens. Also, make sure you use proper syntax and code structure across the code with no errors in the syntax while using them.</p>
+              </div>
+            </div>
+          </div>
+             <!-- Project 10 -->
+          <div class="col-md-4">
+              <div class="card mb-4">
+                <img src="project1.jpg" class="card-img-top" alt="Project 10">
+                <div class="card-body">
+                  <h5 class="card-title">Project 10</h5>
+                  <p class="card-text">The objective of the assignment is to create a responsive website for your phone, iPad, and desktop. Use the bootstrap grid to make sure the flow of the elements is smooth across the different screens. Make sure proper horizontal and vertical spacing is maintained while the website moves across different screens. The assets that are used in the website such as images, tables forms or other elements should not break between screens. Also, make sure you use proper syntax and code structure across the code with no errors in the syntax while using them.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Project 11 -->
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <img src="project2.jpg" class="card-img-top" alt="Project 11">
+                <div class="card-body">
+                  <h5 class="card-title">Project 11</h5>
+                  <p class="card-text">The objective of the assignment is to create a responsive website for your phone, iPad, and desktop. Use the bootstrap grid to make sure the flow of the elements is smooth across the different screens. Make sure proper horizontal and vertical spacing is maintained while the website moves across different screens. The assets that are used in the website such as images, tables forms or other elements should not break between screens. Also, make sure you use proper syntax and code structure across the code with no errors in the syntax while using them.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Project 12 -->
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <img src="project3.jpg" class="card-img-top" alt="Project 12">
+                <div class="card-body">
+                  <h5 class="card-title">Project 12</h5>
+                  <p class="card-text">The objective of the assignment is to create a responsive website for your phone, iPad, and desktop. Use the bootstrap grid to make sure the flow of the elements is smooth across the different screens. Make sure proper horizontal and vertical spacing is maintained while the website moves across different screens. The assets that are used in the website such as images, tables forms or other elements should not break between screens. Also, make sure you use proper syntax and code structure across the code with no errors in the syntax while using them.</p>
+                </div>
+              </div>
+          </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <form class="contact-form">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>2024 Mohit Bhardwaj. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies (Popper.js and jQuery) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
